@@ -1,0 +1,139 @@
+Collection
+-----------
+1. Collection is a framework.
+2. It can be used to achieve all the operations that you perform 
+   on a data.
+3. which type of operation?
+	Searching, insertion, modification, deletion, sorting, etc
+4. What do you mean by collection in java aspect? ****
+   In java, Collection means a single unit of objects.
+   
+ --------------------------------
+ What is a framework?
+ -> Framework means predefined Architecture/structure.
+ -> It represent a set of classes and interfaces.
+ --------------------------------
+5. Hierarchy of collection framework
+-> java.util package contains all classes and interfaces.
+
+6. Methods of Collection interface
+	
+	a. public boolean add()
+	b. public boolean addAll()
+	c. public boolean remove()
+	d. public boolean removeAll()
+	e. public boolean retainAll()
+	f. public int size()
+	g. public void clear()
+	h. public boolean contains()
+	i. public Iterator iterator()
+	j. public boolean isEmpty()
+	k. public boolean equals()
+----------------------------------------------
+Wrapper class
+--------------
+-> It provides the mechanism to convert primitive data types into object.
+-> It introduce in javaSE 5.0.
+-> It consist two features autoboxing and unboxing
+	
+	primitive --convert--> Object  : Autoboxing
+	primitive <--convert-- Object  : unboxing 
+
+-> Table
+Primitive DT			Wrapper class
+--------------------------------------
+	boolean				Boolean
+	char				Character
+	byte				Byte
+	short				Short
+	int					Integer
+	long				Long
+	float				Float
+	double				Double
+
+-> Example:
+	int a = 20;
+	Integer i = new Integer(a);
+	     or
+	Integer i = a;   // autoboxing
+
+-> Example:
+	Integer i = new Integer(20);
+	int a = i.intValue();
+	       or
+	int a = i; // unboxing	
+	
+-> Who is responsible to perform autoboxing and unboxing?
+	Ans: Compiler 
+
+------------------------------------------------------------------
+List
+-----
+1. List is an interface.
+2. It is a child interface of Collection interface.
+3. List can have duplicate values/elements.
+4. List uses insertion order.
+
+ArrayList
+---------
+1. It is an implemation class of List interface.
+2. ArrayList can have duplicate values/elements.
+3. ArrayList uses insertion order.
+4. It is non synchronized.
+5. It works same as Array on the basis of indexing.
+6. It is used to create a Dynamic Array.
+7. How to create an object of ArrayList class.
+
+ArrayList<ref-type> object-name = new ArrayList<ref-type>();
+					
+					or
+					
+ArrayList<ref-type> object-name = new ArrayList<>();				
+
+where, ref-type should be Wrapper-classes or any other-classes.
+
+Example:
+1. ArrayListExample1
+2. ArrayListExample2
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
