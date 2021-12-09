@@ -76,7 +76,7 @@ List
 
 ArrayList
 ---------
-1. It is an implemation class of List interface.
+1. It is an implementation class of List interface.
 2. ArrayList can have duplicate values/elements.
 3. ArrayList uses insertion order.
 4. It is non synchronized.
@@ -93,17 +93,61 @@ ArrayList<ref-type> object-name = new ArrayList<>();
 where, ref-type should be Wrapper-classes or any other-classes.
 
 Example:
-1. ArrayListExample1
-2. ArrayListExample2
+1. com.list.ArrayListExample1
+2. com.list.ArrayListExample2
 
+---------------------------------------------
+Iterator interface
+-------------------
+-> Iterator interface is aka Universal Cursor.
+-> It helps in operation like READ.
+-> It works only in forward direction.
+-> Methods of Iterator interface.
+	1. boolean hasNext()
+	2. E next()
+	3. void remove()
 
-
-
+Example:
+1. com.list.ArrayListExample3
  
 
+LinkedList class
+------------------
+1. LinkedList class is an implementation class of List interface.
+2. It is work as doubly linked list data structure.
+3. LinkedList can have duplicate values/elements.
+4. LinkedList uses insertion order.
+5. It is non synchronized.
+6. Methods of LinkedList class
+	1. all methods include that are used in ArrayList class.
+	2. void addFirst()
+	3. void addLast()
+	4. void removeFirst()
+	5. void removeLast()
+	6. Object clone()
+	7. E get(int index)
+	8. E getFirst()
+	9. E getLast()
+	10. int indexOf(E)
+	
+Example:
+1. com.list.LinkedListExample1
+2. com.list.LinkedListExample2
 
 
+ListIterator interface
+-------------------
+-> It helps in operation like READ.
+-> It works in both forward and reverse direction.
+-> Methods of ListIterator interface.
+	1. boolean hasNext()
+	2. E next()
+	3. boolean hasPrevious()
+	4. E previous()
+	5. void remove()
 
+Example:
+1. com.list.LinkedListExample3
 
 
 
