@@ -149,6 +149,82 @@ ListIterator interface
 Example:
 1. com.list.LinkedListExample3
 
+--------------------------------------------------------------------
+Queue interface
+----------------
+1. It maintains the FIFO (FIRST IN FIRST OUT) manner.
+2. Methods of Queue interface:
+	1. boolean add()
+	2. boolean offer()
+	3. Object remove()
+	4. Object poll()
+	5. Object element()
+	6. Object peek()
+
+PriorityQueue class
+-------------------
+1. Priority Queue is an implementation class of Queue interface.
+2. It does not orders the elements in FIFO manner.
+3. It inherits AbstractQueue class.
+
+Example:
+1. com.queue.PriorityQueueExample1
+
+ArrayDeque class
+-------------------
+1. Unlink PriorityQueue, we can add or remove elements from both sides.
+2. Null elements are not allowed in ArrayDequeue.
+3. ArrayDequeue is thread safe.
+4. It works on double ended queue data structure.
+
+Example:
+1. com.queue.ArrayDequeExample1
+
+Set interface
+--------------
+1. Set interface is extends Collection interface.
+2. Set does not allow duplicate elements.
+3. Set does not support insertion order.
+4. It has two implementation classes:
+	1. HashSet class
+	2. TreeSet class
+5. Methods of Set interface
+	1. boolean add()
+	2. boolean remove()
+	3. void clear()
+	4. boolean contains()
+	5. Object clone()
+	6. boolean isEmpty()
+	7. int size()
+	8. Iterator iterator()
+
+
+
+HashSet class
+-------------
+1. HashSet class stores elements by using hashing technique.
+2. HashSet contains unique elements.
+3. HashSet allow null elements.
+
+Example:
+1. com.set.HashSetExample
+
+TreeSet class
+-------------
+1. TreeSet class stores elements by using Binary Tree technique.
+2. TreeSet contains unique elements.
+3. TreeSet does not allow null elements.
+4. TreeSet maintain the elements in ascending order.
+
+Example:
+1. com.set.TestSetExample
+
+
+
+
+
+
+
 
 
 
